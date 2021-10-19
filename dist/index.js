@@ -1,13 +1,14 @@
-var React = require('react');
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
-var styles = {"test":"_styles-module__test__3ybTi"};
+var React = _interopDefault(require('react'));
 
-var ExampleComponent = function ExampleComponent(_ref) {
-  var text = _ref.text;
+function Loader() {
   return React.createElement("div", {
-    className: styles.test
-  }, "Example Component: ", text);
-};
+    className: 'loader'
+  }, React.createElement("div", {
+    className: 'loader__container'
+  }));
+}
 
-exports.ExampleComponent = ExampleComponent;
+exports.Loader = Loader;
 //# sourceMappingURL=index.js.map

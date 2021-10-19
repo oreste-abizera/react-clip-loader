@@ -1,14 +1,12 @@
-import { createElement } from 'react';
+import React from 'react';
 
-var styles = {"test":"_styles-module__test__3ybTi"};
+function Loader() {
+  return React.createElement("div", {
+    className: 'loader'
+  }, React.createElement("div", {
+    className: 'loader__container'
+  }));
+}
 
-const ExampleComponent = ({
-  text
-}) => {
-  return createElement("div", {
-    className: styles.test
-  }, "Example Component: ", text);
-};
-
-export { ExampleComponent };
+export { Loader };
 //# sourceMappingURL=index.modern.js.map
