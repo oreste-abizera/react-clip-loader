@@ -1,9 +1,9 @@
 import React, { ReactElement } from 'react'
-import '../styles/Loader.css'
+import styles from '../styles/Loader.module.css'
 export default function Loader(): ReactElement {
   return (
-    <div className='loader'>
-      <div className='loader__container'></div>
+    <div className={styles.loader}>
+      <div className={styles.loader__container}></div>
     </div>
   )
 }
