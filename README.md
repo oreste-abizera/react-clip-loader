@@ -15,12 +15,12 @@ npm install --save react-clip-loader
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-clip-loader'
+import { Loader } from 'react-clip-loader'
 import 'react-clip-loader/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Loader />
   }
 }
 ```
