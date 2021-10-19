@@ -15,6 +15,11 @@
   animation: spinner 1s infinite;
 }
 
+.loader .loader__container.small {
+  height: 5rem;
+  width: 5rem;
+}
+
 @keyframes spinner {
   to {
     transform: rotate(360deg);
