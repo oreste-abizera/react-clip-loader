@@ -20,7 +20,7 @@ import 'react-clip-loader/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <Loader />
+    return <Loader small={false} />
   }
 }
 ```
