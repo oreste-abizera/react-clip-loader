@@ -1,10 +1,25 @@
-import React from 'react'
-
 import { Loader } from 'react-clip-loader'
 import 'react-clip-loader/dist/index.css'
 
-const App = () => {
-  return <Loader />
-}
+export default function App() {
+  return (
+    <div className='App'>
+      <div>
+        <h1>Small Loaders</h1>
+        <Loader small={true} />
+      </div>
 
-export default App
+      <div>
+        <h1>Large Loaders</h1>
+        <Loader />
+      </div>
+
+      <div>
+        <h1>Custom Colors</h1>
+        <Loader color='red' secondaryColor='black' />
+      </div>
+
+      <p>Enjoy using this package</p>
+    </div>
+  )
+}
