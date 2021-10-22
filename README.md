@@ -27,9 +27,11 @@ class Example extends Component {
 
 ## Options
 
-| Attributes | Description        | type      | Defaults |
-| ---------- | ------------------ | --------- | -------- |
-| small      | Size of the loader | `boolean` | `false`  |
+| Attributes     | Description                               | type      | Defaults    |
+| -------------- | ----------------------------------------- | --------- | ----------- |
+| small          | Size of the loader                        | `boolean` | `false`     |
+| color          | Color of the active part of loader        | `string`  | `'#2d4059'` |
+| secondaryColor | Color of the remaining part of the loader | `string`  | `'#e5e5e5'` |
 
 ## Demo
 

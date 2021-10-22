@@ -10,9 +10,8 @@
   height: 15rem;
   width: 15rem;
   border-radius: 50%;
-  border: 5px solid #e5e5e5;
-  border-top-color: #2d4059;
-  animation: spinner 1s infinite;
+  border: 5px solid;
+  animation: spinner 1.5s infinite;
 }
 
 .loader .loader__container.small {
