@@ -25,6 +25,16 @@ class Example extends Component {
 }
 ```
 
+## Options
+
+| Attributes | Description        | type      | Defaults |
+| ---------- | ------------------ | --------- | -------- |
+| small      | Size of the loader | `boolean` | `false`  |
+
+## Demo
+
+You can find demo [here](https://bm45f.csb.app/)
+
 ## License
 
 MIT © [oreste-abizera](https://github.com/oreste-abizera)
